@@ -1,5 +1,6 @@
 
 
+# Movie class and constructor
 class Movie():
 
     def __init__(self, movie_title, poster_image_url, trailer_youtube_url):

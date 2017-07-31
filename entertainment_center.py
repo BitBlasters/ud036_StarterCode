@@ -3,7 +3,7 @@
 import media
 import fresh_tomatoes
 
-
+# create the movie objects
 star_wars = media.Movie("Star Wars",
                         "http://t3.gstatic.com/images?q=tbn:ANd9GcTqRzbG-zvWPx5khd-1D9st1B7FYEq71Gbd2UdaPnrWPwVvY2PX",
                         "https://www.youtube.com/watch?v=vP_1T4ilm8M")
@@ -40,8 +40,8 @@ matrix = media.Movie("Matrix",
                            "https://www.movieposter.com/posters/archive/main/9/A70-4902",
                            "https://www.youtube.com/watch?v=m8e-FF8MsqU")
 
-
+# add the movie objects to a list
 movies = [star_wars, avatar, star_wars_rogue_one, lord_of_the_rings, avengers, hunger_games, harry_potter, star_trek, matrix]
 
-
+# send the movie list to be viewed.
 fresh_tomatoes.open_movies_page(movies)
